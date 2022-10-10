@@ -1,0 +1,100 @@
+body {
+    background: rgb(55, 54, 54);
+    color: white;
+    font-family: Arial, Helvetica Neue, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+header {
+    background-color: black;
+    background-image: url("images/miku3.jpg");
+    background-size: 100%;
+    background-position: center;
+    padding:20px;
+    height: 400px;
+    
+    text-align: center;
+}
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+header .mobile {
+    display: none;
+}
+header .logo a {
+    background-image: url("images/miku300.png");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position:relative;
+    text-indent: -99999999px;
+    top: -30px;
+    height: 80px;
+    width:300px;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+}
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+/* RESPONSIVE RULES */
+@media screen and (max-width: 734px) {
+    header {
+        height: 200px;
+    }
+    header .mobile {
+        display: inline-block;
+    }
+    header .desktop {
+        display: none;
+    }
+}
+/* FEATURES */
+
+.features {
+    background: white;
+    color: gray;
+    padding: 20px;
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: wrap;
+}
+.features figure {   
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    width: 200px;   
+}
+.features figure img {
+    border: 1px solid white;
+    border-radius: 20px;
+    box-shadow: gray 0 0 10px;
+    width: 200px;
+}
+/* RESPONSIVE RULES */
+/* @media screen and (max-width: 734px){
+    .features {
+        display: block;
+    }
+} */
+/* FOOTER */
+
+footer {
+    background: black;
+    color: gray;
+    font-size: 12px;
+    padding: 20px 20px;
+    text-align: center;
+}
+
