@@ -1,3 +1,4 @@
+/* 鼠标样式 */
 body {
     cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur),
         default;
@@ -7,3 +8,66 @@ img {
     cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur),
         default;
 }
+
+/* 导航栏做居中处理 */
+#nav-right{
+    flex:1 1 auto;
+    justify-content: flex-end;
+    margin-left: auto;
+    display: flex;
+    flex-wrap:nowrap;
+}
+/* 去除导航栏选项中底下的蓝条 */
+#nav *::after{
+    background-color: transparent!important;
+}
+/* 导航栏菜单鼠标移入字体放大 */
+#nav #site-name:hover, 
+#nav .menus_item:hover, 
+#nav #search-button:hover{
+    font-size:28px;
+}
+
+/* 导航栏常驻 */
+.nav-fixed #nav{
+    transform: translateY(58px)!important;
+    -webkit-transform: translateY(58px)!important;
+    -moz-transform: translateY(58px)!important;
+    -ms-transform: translateY(58px)!important;
+    -o-transform: translateY(58px)!important;
+}
+#nav{
+    transition: none!important;
+    -webkit-transition: none!important;
+    -moz-transition: none!important;
+    -ms-transition: none!important;
+    -o-transition: none!important;
+}
+
+/*文章相关推荐卡片美化*/
+.relatedPosts > .relatedPosts-list > div {
+    border-radius: 20px;
+  }
+
+/*文章分页卡片美化*/
+#pagination .prev-post a, #pagination .next-post a {
+    border-style: ridge;
+    border-width: 8px;
+    border-color: #d2d2d2;
+  }
+
+/*版权卡片美化*/
+#post .post-copyright {
+    position: relative;
+    margin: 2rem 0 0.5rem;
+    padding: 1.5rem 0.8rem;
+    border: 8px solid #f6f6f6; /*卡片边框*/
+    border-radius: 20px; /*边框圆角*/
+}
+#post .post-copyright:before {
+    position: absolute;
+    top: -1.9rem; /*C位置*/
+    color: #49b1f540; /*C颜色*/
+    font-size: 6rem; /*C大小*/
+}
+
