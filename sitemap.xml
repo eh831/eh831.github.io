@@ -339,6 +339,13 @@
   </url>
   
   <url>
+    <loc>https://eh831.github.io/tags/stm32/</loc>
+    <lastmod>2024-07-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://eh831.github.io/tags/Python/</loc>
     <lastmod>2024-07-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -347,13 +354,6 @@
   
   <url>
     <loc>https://eh831.github.io/tags/%E7%88%AC%E8%99%AB/</loc>
-    <lastmod>2024-07-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://eh831.github.io/tags/stm32/</loc>
     <lastmod>2024-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -404,14 +404,14 @@
   </url>
   
   <url>
-    <loc>https://eh831.github.io/categories/Python/</loc>
+    <loc>https://eh831.github.io/categories/stm32/</loc>
     <lastmod>2024-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://eh831.github.io/categories/stm32/</loc>
+    <loc>https://eh831.github.io/categories/Python/</loc>
     <lastmod>2024-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
